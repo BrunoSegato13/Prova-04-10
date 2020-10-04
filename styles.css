@@ -1,0 +1,111 @@
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    background-color: #E0E0E0;  
+    list-style-image: none;  
+    text-decoration: none;
+    justify-content: space-around;
+    border: border-box;
+    color: #E03F13;
+    box-shadow: lavender;
+}
+header .menu-links {
+    flex-direction: end;
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    color: #E03F13;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+
+ }
+ header li {
+     padding: 20px;
+ }
+ 
+  
+ header img{
+     width: 100px;
+     flex-direction: initial;
+ }
+
+ header a {
+     text-decoration: none;
+     color: #E03F13;
+ }
+
+ .secction-slogan{
+     display: flex;
+     margin: 30px 40px 20px 70px
+
+    
+ }
+ .secction-slogan img{
+     width: 600px;
+     border-radius: 20px;
+ }
+
+  .secction-slogan h1{
+      font-size: 40px;
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #15465F;
+      margin: 50px 20px 30px 50px;
+  }
+  .secction-slogan .slogan{
+      display: flex;
+      flex-direction: column;
+    }
+    .secction-slogan p{
+        font-size: 30px;
+        font-weight: 200;
+        font-family: sans-serif;
+        color: #15465F;
+        margin: 0px 20px 30px 50px;
+    }
+footer img {
+    width: 30px;
+    height: 30px;
+
+}
+footer{
+    display: flex;
+    background-color: #E03F13;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+}
+footer .footer{
+    flex:1;
+}
+footer .media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+footer li{
+    padding: 3px;
+}
+ footer legend{ 
+     font-size: 22px;
+ }
+ footer .Copyright {
+     text-align: center;
+
+ }
+ 
+
+
+/* azul #265F7B
+laranja #E03F13
+blueDark #15465F
+Gray #C4C4C4
+IceDark #E0E0E0 */
